@@ -1,0 +1,22 @@
+footer {
+    max-width: 1140px;
+    margin: 0px 25px 0px 25px;
+    background-color: #00274C;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+li{
+    text-decoration: none;
+    color: azure;
+}
+
+.brand {
+    padding-bottom: 200px;
+    
+    
+    
+}
