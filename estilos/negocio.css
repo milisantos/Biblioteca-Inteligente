@@ -1,0 +1,57 @@
+.business-rules{
+    margin: 80px 25px;
+    padding: 0;
+    max-width: 1140px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.business-rules .service-client-desc{
+    width: 50%;
+    margin-top:10px;
+    /* color: blue; */
+}
+
+.business-rules .services-client{
+    width: 50%;
+    /* background-color: blueviolet; */
+    display: flex;    
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    gap: 10px;
+    
+}
+
+.services-client .box-service{
+    display: flex;
+    background-color:#fff;
+    width: 30%;
+    height: 130px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin-top: 38px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.3);
+    border: 1px solid #d4d0d0;
+    
+    
+}
+
+.box-service .box-content{
+    align-items: center;
+    /* background-color: aquamarine; */
+    width: 80%;
+}
+
+.box-service .box-content img{
+   padding: 20px 34px 0px 34px;
+}
+
+.box-service .box-content p{
+    text-align: center;
+    margin-top: 5px;
+}
