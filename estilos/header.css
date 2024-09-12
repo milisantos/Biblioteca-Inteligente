@@ -1,0 +1,43 @@
+
+header{
+    margin: 0 2rem 0 2.5rem;
+    display: grid;
+    grid-template-columns: 25% 75%;
+  }
+  
+  
+  .logo img{
+    /* max-width: 10vw; */
+    width: 10vw;
+    margin-top: .5rem;
+  }
+  
+  .opcoes{
+    margin: 1.5rem 0;
+    font-family: "Roboto";
+    display: flex;              /* Define como um contêiner flexível */
+    justify-self: flex-end;   /* Alinha os itens ao final (direita) */
+  }
+  
+  .opcoes a{
+    margin: 0 3rem; 
+    padding: .5rem .7rem;
+    border-radius: 15px;
+    font-weight: 500;
+    color: #00274C;
+    font-size: 2.5vh;
+    text-decoration: underline;          /* Aplica o sublinhado */
+    text-underline-offset: 3px;          /* Ajusta o espaçamento entre o texto e o sublinhado */
+  
+  }
+  .opcoes a:hover{
+    text-decoration: none;
+    background-color: #ADD8E6;
+    padding: .7rem;
+    border-radius: 15px;
+    font-weight: 600;
+    color: #696969;
+    transition-duration: .5s;
+    box-shadow: 0 4px 8px rgba(173, 216, 230, 0.6), 0 6px 20px rgba(173, 216, 230, 0.4);
+  
+  }
