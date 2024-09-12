@@ -1,37 +1,44 @@
 .banner{
-  margin: 4rem 25px;
-  padding: 2rem .5rem;
-  /* background-color: aqua; */
+  border: 3px solid #ADD8E6;
+  border-radius: 10px;
+  margin:25px;
+  padding: .5rem 0;
   display: grid;
   grid-template-columns: 50% 50%;
   font-family: 'Roboto';
+  box-shadow: 0 4px 8px rgba(173, 216, 230, 0.6), 0 6px 20px rgba(173, 216, 230, 0.4);
+
+
 }
 
 .banner .bannerFrases{
-  margin-left: 2rem;
+  margin-top: 3rem;
+  margin-left: 2.5rem;
 }
-.banner .bannerFrases h3{
-  padding-bottom: .5rem;
+.banner .bannerFrases h5{
+  padding: .2rem;
   margin-bottom: 0;
+  font-size: 2vh;
 }
 .banner .bannerFrases h1{
   font-size: 4.4vw;
   padding: 0;
   margin-top: 0;
   margin-bottom: .2rem;
+  color: #00274C;
+  text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
 
 }
 .banner .bannerFrases p{
-  font-size: 14px;
-  color: #495057 ;
+  margin-top: 2rem;
+  font-size: 2.2vh;
+  color: #696969 ;
   max-width: 95%;
   text-align: justify;
 }
 
 .banner img{
-  /* background-color: azure; */
-  width: 30vw;
+  width: 40vw;
   display: grid;
   justify-self: end;
-  margin-right: 3rem;
 }
