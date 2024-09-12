@@ -1,0 +1,42 @@
+
+header{
+  margin: 0 3rem 0;
+  /* background-color: antiquewhite; */
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+/* .logo{
+  margin: 0 8rem 0 0
+} */
+
+.logo img{
+  max-width: 7vw;
+  width: 100%;
+  margin-top: .5rem;
+}
+
+.opcoes{
+  margin: 1.5rem 0;
+  font-family: "Roboto";
+}
+
+.opcoes a{
+  /* background-color: aqua; */
+  margin: 3rem ;
+  padding: .5rem .7rem;
+  border-radius: 15px;
+  /* border: 1.8px solid rgba(0, 0, 0, 0.411); */
+  font-weight: 500;
+  color: black;
+}
+.opcoes a:hover{
+  text-decoration: none;
+  background-color: #000;
+  margin: 3rem;
+  padding: .7rem;
+  border-radius: 15px;
+  font-weight: 600;
+  color: #FFF;
+  transition-duration: .5s;
+}

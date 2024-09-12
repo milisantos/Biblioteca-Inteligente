@@ -1,0 +1,23 @@
+.produtos{
+  margin: 4rem 25px ;
+  padding: 2rem .5rem;
+  /* background-color: antiquewhite; */
+  font-family: 'Roboto';
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* gap: 2rem; */
+}
+
+.produtos img{
+  width: 30vw;
+  margin-left: 2rem;
+}
+
+.prodFrases{
+  margin-right: 2rem;
+  text-align: justify;
+}
+
+.prodFrases p{
+  font-size: 15px;
+}

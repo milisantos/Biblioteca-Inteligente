@@ -1,0 +1,37 @@
+.banner{
+  margin: 4rem 25px;
+  padding: 2rem .5rem;
+  /* background-color: aqua; */
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-family: 'Roboto';
+}
+
+.banner .bannerFrases{
+  margin-left: 2rem;
+}
+.banner .bannerFrases h3{
+  padding-bottom: .5rem;
+  margin-bottom: 0;
+}
+.banner .bannerFrases h1{
+  font-size: 4.4vw;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: .2rem;
+
+}
+.banner .bannerFrases p{
+  font-size: 14px;
+  color: #495057 ;
+  max-width: 95%;
+  text-align: justify;
+}
+
+.banner img{
+  /* background-color: azure; */
+  width: 30vw;
+  display: grid;
+  justify-self: end;
+  margin-right: 3rem;
+}
