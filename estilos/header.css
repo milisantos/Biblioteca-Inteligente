@@ -1,28 +1,36 @@
 
 header{
+<<<<<<< Updated upstream
 
   margin: 0 2rem 0 2.5rem;
+=======
+  margin: .5rem 2rem 0 2rem;
+>>>>>>> Stashed changes
   display: grid;
   grid-template-columns: 25% 75%;
+  /* background-color: #ADD8E6;
+  box-shadow: 0 4px 8px rgba(173, 216, 230, 0.6), 0 6px 20px rgba(173, 216, 230, 0.4); */
 }
 
 
 .logo img{
-  /* max-width: 10vw; */
   width: 10vw;
-  margin-top: .5rem;
+  padding: .2rem;
+
 }
 
 .opcoes{
-  margin: 1.5rem 0;
   font-family: "Roboto";
   display: flex;              /* Define como um contêiner flexível */
   justify-self: flex-end;   /* Alinha os itens ao final (direita) */
+  align-items: center;
 }
 
 .opcoes a{
-  margin: 0 3rem; 
-  padding: .5rem .7rem;
+  /* background-color: #696969; */
+  
+  margin: 0 .5em; 
+  padding: .5rem 1.5rem;
   border-radius: 15px;
   font-weight: 500;
   color: #00274C;
@@ -34,7 +42,7 @@ header{
 .opcoes a:hover{
   text-decoration: none;
   background-color: #ADD8E6;
-  padding: .7rem;
+  padding: .5rem 1.6rem;
   border-radius: 15px;
   font-weight: 600;
   color: #696969;
