@@ -1,0 +1,58 @@
+.empresa{
+
+  /* max-width: 1140px; */
+  margin: 0;
+  padding: 1rem .5rem 0 0;
+  font-family: 'Roboto';
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem
+  
+}
+
+.empresa img{
+  width: 50vw;
+  opacity: 90%;
+}
+
+.empFrases{
+  place-self: center;
+
+  margin: 25px ;
+  background-color: #EBF0FA;
+  padding: 5rem 2rem ;
+  /* margin-right: 2rem; */
+  text-align: justify;
+  box-shadow: 0 4px 8px rgba(173, 216, 230, 0.6), 0 6px 20px rgba(173, 216, 230, 0.3);
+  border-radius: 10px;
+  border: #00274c36 1px solid;
+}
+
+.empFrases a{
+  margin-top: 1vw;
+  padding: .5rem 1.5rem;
+  border-radius: 15px;
+  font-size: 2.2vh;
+  text-decoration: none;
+  background-color: #ADD8E6;
+  padding: .5rem 1.6rem;
+  border-radius: 15px;
+  font-weight: 600;
+  color: #00274C;
+}
+
+.empFrases a:hover{
+  transition-duration: .3s;
+  box-shadow: 5px 5px 15px 1px rgba(150, 150, 150, 0.5);
+}
+
+.empFrases h2{
+  font-size: 4vh;
+  color: #00274C;
+  font-weight: 900;
+}
+
+.empFrases p{
+  font-size:  2.3vh;
+  color: #696969;
+}

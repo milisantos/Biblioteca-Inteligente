@@ -1,11 +1,6 @@
 
 header{
-<<<<<<< Updated upstream
-
-  margin: 0 2rem 0 2.5rem;
-=======
   margin: .5rem 2rem 0 2rem;
->>>>>>> Stashed changes
   display: grid;
   grid-template-columns: 25% 75%;
   /* background-color: #ADD8E6;
@@ -15,7 +10,7 @@ header{
 
 .logo img{
   width: 10vw;
-  padding: .2rem;
+  padding: .5rem;
 
 }
 
@@ -29,12 +24,12 @@ header{
 .opcoes a{
   /* background-color: #696969; */
   
-  margin: 0 .5em; 
+  margin: 0 .2em; 
   padding: .5rem 1.5rem;
   border-radius: 15px;
   font-weight: 500;
   color: #00274C;
-  font-size: 2.5vh;
+  font-size: 2.2vh;
   text-decoration: underline;          /* Aplica o sublinhado */
   text-underline-offset: 3px;          /* Ajusta o espaçamento entre o texto e o sublinhado */
 
@@ -45,7 +40,7 @@ header{
   padding: .5rem 1.6rem;
   border-radius: 15px;
   font-weight: 600;
-  color: #696969;
+  color: #00274C;
   transition-duration: .5s;
   box-shadow: 0 4px 8px rgba(173, 216, 230, 0.6), 0 6px 20px rgba(173, 216, 230, 0.4);
 

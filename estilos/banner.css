@@ -1,12 +1,12 @@
 .banner{
-  /* max-width: 1140px; */
-  
+/* background-color: red; */
+
   border: 3px solid #ADD8E6;
   border-radius: 10px;
-  margin:25px;
-  padding: .5rem 0;
+  margin: 25px ;
+  padding: 1rem 0;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 51% auto;
   font-family: 'Roboto';
   box-shadow: 0 4px 8px rgba(173, 216, 230, 0.6), 0 6px 20px rgba(173, 216, 230, 0.4);
 
@@ -14,25 +14,41 @@
 }
 
 .banner .bannerFrases{
-  margin-top: 3rem;
   margin-left: 2.5rem;
+  display: grid;
+  place-self: center;
+  place-items: start;
 }
-.banner .bannerFrases h5{
-  padding: .2rem;
-  margin-bottom: 0;
-  font-size: 2vh;
+.banner .bannerFrases a{
+  margin-top: 1vw;
+  padding: .5rem 1.5rem;
+  border-radius: 15px;
+  font-size: 2.2vh;
+  text-decoration: none;
+  background-color: #ADD8E6;
+  padding: .5rem 1.6rem;
+  border-radius: 15px;
+  font-weight: 600;
+  color: #00274C;
 }
+
+.banner .bannerFrases a:hover{
+  transition-duration: .3s;
+  box-shadow: 5px 5px 15px 1px rgba(150, 150, 150, 0.5);
+}
+
 .banner .bannerFrases h1{
-  font-size: 4.4vw;
+  font-size: 4vw;
   padding: 0;
   margin-top: 0;
   margin-bottom: .2rem;
   color: #00274C;
   text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
-
+  font-weight: 700;
 }
+
 .banner .bannerFrases p{
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   font-size: 2.2vh;
   color: #696969 ;
   max-width: 95%;
@@ -40,7 +56,10 @@
 }
 
 .banner img{
-  width: 40vw;
+  width: 30vw;
+  /* padding: .5rem; */
   display: grid;
-  justify-self: end;
+  justify-self: center;
+  align-self: start;
+
 }
