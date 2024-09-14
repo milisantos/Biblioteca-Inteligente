@@ -1,0 +1,51 @@
+.quem-somos{
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40vh;
+    
+
+}
+.titulo{
+    /* padding: 0px 0px 0px 80px; */
+    background-color: antiquewhite;
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    /* justify-content: center; */
+    /* margin-left: 80px; */
+}
+
+.titulo h2{
+  background-color: aqua;
+  width: 45%;
+  /* margin-left: 80px; */
+  word-break: break-all;
+  box-sizing: border-box;
+  font-size: 5em;
+  
+  
+}
+
+.desc-quem-somos{
+    height: 32vh;
+    width: 30%;
+    background-color: blueviolet;
+    display: flex;
+    /* justify-content: center; */
+    align-content: flex-start;
+    border-radius: 10px 60px 30px;
+
+    
+}
+.desc-quem-somos p{
+    font-size: 20px;
+    width: 90%;
+    word-break: break-all;
+    box-sizing: border-box;
+    
+    
+    
+}
+
