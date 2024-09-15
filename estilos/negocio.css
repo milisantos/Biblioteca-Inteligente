@@ -1,72 +1,97 @@
-.business-rules{
-
-  margin: 2rem;
-  padding: 0;
-  /* max-width: 1140px; */
-  /* background-color: aqua; */
-  display: flex;
-  justify-content: space-between;
-  /* align-items: center; */
-  /* background-color: #ADD8E6; */
+.grid1{
+  font-family: "Roboto";
+  display: grid;
+  grid-template-columns: 40% auto;
+  /* gap: 2rem; */
+  /* background-color: red; */
+  margin-top: 3rem;
 }
 
-.business-rules .service-client-desc{
-  width: 50%;
-  margin-top:10px;
-  /* color: blue; */
-  /* background-color: #ADD8E6; */
-}
-
-.business-rules .service-client-desc h2{
-  color:#00274C;
-  padding: 1rem   0 0 0;
-  font-size: 3rem;
-}
-
-.business-rules .services-client{
-  width: 50%;
-  /* background-color: #ADD8E6; */
-  display: flex;    
-  flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
-  gap: 10px;
-  
-}
-
-.services-client .box-service{
-  display: flex;
-  /* background-color:#fff; */
-  background-color: #EBF0FA;
-  width: 30%;
-  /* height: 130px; */
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  margin-top: 38px;
-  margin-left: 5px;
-  margin-bottom: 2px;
-  border-radius: 10px;
-  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.3);
-  border: 1px solid #d4d0d0;
-  
-  
-}
-
-.box-service .box-content{
-  align-items: center;
+.valor-missao-visao {
+  margin: 25px;
   /* background-color: aquamarine; */
-  width: 80%;
+  padding: 0 2rem 0 0;
 }
 
-.box-service .box-content img{
- padding: 20px 34px 0px 34px;
+.valor-missao-visao .missao-visao .tituloMV img{
+  width: 3vw;
+}
+.valor-missao-visao .missao-visao .tituloMV .imgvisao{
+  width: 2.5vw;
+  margin-left: .8rem;
+}
+.valor-missao-visao .missao-visao .tituloMV{
+  display: flex;
+  gap: .5rem;
+  margin: 2rem 0 0 2rem;
+}
+.valor-missao-visao .missao-visao .tituloMV h2{
+  padding: 1rem 0;
 }
 
-.box-service .box-content p{
-  text-align: center;
-  margin-top: 5px;
+.valor-missao-visao .missao-visao p{
+  color: #696969;
+  padding: 0 0 0 3rem  ;
+  text-align: justify;
+  font-size:  2.3vh;
+
+}
+
+.valor-missao-visao .missao-visao .line {
+  margin: 2rem 0 1rem 3rem;
+  display: block;
+  /* width: 100%; */
+  height: .1rem;
+  background-color: #00274c54;
   
 }
 
-.espaco{
-  margin-left: 1rem;
+.grid1 .valores{
+  /* background-color: #EBF0FA; */
+  /* border-radius: 15px; */
+  margin: 0 25px 0 0;
+  padding: 2rem;
+  display: grid;
+  place-self: center;
+  border-radius: 10px;
+  border: #00274c54 .1rem solid;
+}
+
+.grid1 .valores-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
+  
+
+}
+
+.grid1 .valores img{
+  width: 1.5vw;
+}
+
+
+.grid1 .valores .valores-grid .box-valores .box-content{
+  /* background-color: #696969; */
+  text-align: justify;
+
+}
+.grid1 .valores .valores-grid .box-valores .box-content h2{
+  font-size: 4vw;
+  padding: 5vw 0;
+  /* margin-left: 2rem; */
+  color: #00274C;
+  font-weight: 700;
+}
+
+.grid1 .valores .valores-grid .box-valores .box-content h4{
+  font-size: 1.5vw;
+}
+
+.grid1 .valores .valores-grid .box-valores .box-content .valTitulo{
+  display: grid;
+  grid-template-columns: 15% auto;
+}
+.grid1 .valores .valores-grid .box-valores .box-content p{
+  font-size:  2.3vh;
+  color: #696969;
 }

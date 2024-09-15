@@ -2,7 +2,7 @@
 
   /* max-width: 1140px; */
   margin: 0;
-  padding: 1rem .5rem 0 0;
+  padding: 1.5rem .5rem 0 0;
   font-family: 'Roboto';
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -20,7 +20,7 @@
 
   margin: 25px ;
   background-color: #EBF0FA;
-  padding: 5rem 2rem ;
+  padding: 3rem 2rem ;
   /* margin-right: 2rem; */
   text-align: justify;
   box-shadow: 0 4px 8px rgba(173, 216, 230, 0.6), 0 6px 20px rgba(173, 216, 230, 0.3);
