@@ -4,10 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../estilos/style.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="icon" href="assets/img/iconlogo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/estilos/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="/assets/img/iconlogo.svg" type="image/svg+xml">
     <title>Integrantes</title>
 </head>
 
@@ -17,26 +16,325 @@
 
     <!-- header -->
     <header>
-        <div class="logo">
-            <img src="./assets/img/loog.png" alt="">
+        <div class="logo" id="Home">
+            <a href="/index.html"><img src="/assets/img/loog.png" alt=""></a>
         </div>
 
         <div class="opcoes">
-            <a href="/pages/quemsomos.html">Quem Somos</a>
-            <a href="/pages/integrantes.html">Membros</a>
-            <a href="/pages/planejamento.html">Estratégia</a>
-            <a href="/pages/produto.html">Produto</a>
+            <a href="/index.html">Home</a>
+            <a href="#">Quem Somos</a>
+            <a href="#">Estratégia</a>
+            <a href="#">Produto</a>
+
+
+            <!-- <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Home
+                </a>
+
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Quem somos?</a></li>
+                    <li><a class="dropdown-item" href="#">Nossa Equipe</a></li>
+                    <li><a class="dropdown-item" href="#">Nossos Produtos</a></li>
+                    <li><a class="dropdown-item" href="#">Modelo de Négocio</a></li>
+                    <li><a class="dropdown-item" href="#">Planejamento Estratégico</a></li>
+                </ul>
+            </div> -->
+
         </div>
     </header>
 
 
+    <section> <!--intro-->
+        <div class="integrantes">
+            <div class="text">
+                <div class="box1">
+                    <h1>Nossa Equipe</h1>
+                    <p>
+                        Nossa equipe é formada por profissionais apaixonados e dedicados, cada um trazendo uma vasta gama de habilidades e experiências. Juntos, combinamos criatividade, expertise técnica e um profundo comprometimento com a excelência em tudo o que fazemos.
+                        </br>
+                        Valorizamos a diversidade de ideias e perspectivas, o que nos permite abordar desafios de forma inovadora e eficiente. Nossa cultura de trabalho é baseada na colaboração e no respeito mútuo, onde cada integrante tem a oportunidade de crescer e contribuir de forma significativa para os nossos projetos.
+                        </br>
+                        Trabalhamos com um objetivo comum: oferecer soluções que impactem positivamente nossos clientes e o mercado. Acreditamos que, ao unir nossos talentos, podemos alcançar resultados que superam as expectativas, sempre buscando o equilíbrio perfeito entre inovação e qualidade.
+                    </p>
+                </div>
+                <div class="box2">
+                    <img src="/assets/img/box2.svg" alt="">
+                </div>
+            </div>
+
+            <div class="quemSomos">
+                <h2>Quem somos?</h2>
+                <div class="equipe">
+
+                    <!-- MYLENA -->
+                    <div class="image-container">
+                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#mylena">
+                            <img id="my" src="/assets/img/my.svg" alt="">
+                            <h6>Mylena Rayane</h6>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="mylena" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" id="dialog">
+                                <div class="modal-content" id="content">
+                                    <div class="modal-header" id="header">
+                                        <img src="/assets/img/myIconHeader.png" alt=""> <!--imagem q represente ou ela goste-->
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body" id="modal-body">
+                                        <div class="grid1">
+                                            <div class="nome">
+                                                <div>
+                                                    <h3>Mylena</h3>
+                                                    <h3 class="sobrenome">Rayane</h3>
+                                                </div>
+                                                <img src="/assets/img/myIconNome.png" alt="">
+                                            </div>
+
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsum dicta quia quibusdam, dolorem necessitatibus consectetur nemo veritatis ex laborum laboriosam vero aperiam hic inventore neque nulla modi numquam Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi omnis fuga similique mollitia culpa voluptatum iure natus quae? At perspiciatis sapiente illum sed soluta dolores delectus numquam explicabo reprehenderit fugit!</p>
+                                        </div>
+                                        <div class="grid2">
+                                            <img class="perfil" src="/assets/img/myModal.png" alt="">
+                                            <div class="box-down">
+                                                <a href=""><img src="/assets/img/myIcon (1).svg" alt=""></a><!--linkedin-->
+                                                <a href=""><img src="/assets/img/myIcon (2).svg" alt=""></a><!--github-->
+                                                <a href=""><img src="/assets/img/myIcon (3).svg" alt=""></a><!--Discord?-->
+                                                <a href=""><img src="/assets/img/myIcon (4).svg" alt=""></a><!--instagram-->
+                                            </div>
+                                            <img src="" alt=""> <!--icon Mail-->
+                                            <p>Mail.com</p>
+
+                                            <img src="" alt=""> <!-- icon local-->
+                                            <p>Brasil, PE</p>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer" id="my-footer">
+                                        <button type="button" class="btn" id="my-btn-close" data-bs-dismiss="modal">Close</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- KEROLAINY -->
+                    <div class="image-container">
+                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#kel">
+                            <img src="/assets/img/kel.svg" alt="">
+                            <h6>Kerolainy Cristiny</h6>
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="kel" tabindex="-1">
+                            <div class="modal-dialog" id="dialog">
+                                <div class="modal-content" id="content">
+                                    <div class="modal-header" id="header">
+                                        <img src="/assets/img/kelIconHeader.svg" alt=""> <!--imagem q represente ou ela goste-->
+                                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body" id="modal-body">
+                                        <div class="grid1">
+                                            <div class="nome">
+                                                <div>
+                                                    <h3 class="nome-top">Kerolainy</h3>
+                                                    <h3 class="sobrenome">Cristiny</h3>
+                                                </div>
+                                                <img src="/assets/img/kelIconNome.png" alt="">
+                                            </div>
+
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsum dicta quia quibusdam, dolorem necessitatibus consectetur nemo veritatis ex laborum laboriosam vero aperiam hic inventore neque nulla modi numquam Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi omnis fuga similique mollitia culpa voluptatum iure natus quae? At perspiciatis sapiente illum sed soluta dolores delectus numquam explicabo reprehenderit fugit!</p>
+                                        </div>
+                                        <div class="grid2">
+                                            
+                                            <img src="/assets/img/kelModal.png" alt="">
+                                            <div class="box-down">
+                                                <a href=""><img src="/assets/img/kelIcon (2).svg" alt=""></a><!--linkedin-->
+                                                <a href=""><img src="/assets/img/kelIcon (3).svg" alt=""></a><!--github-->
+                                                <a href=""><img src="/assets/img/kelIcon (4).svg" alt=""></a><!--Discord?-->
+                                                <a href=""><img src="/assets/img/kelIcon (1).svg" alt=""></a><!--instagram-->
+                                            </div>
+
+
+                                            <img src="" alt=""> <!--icon Mail-->
+                                            <p>Mail.com</p>
+
+                                            <img src="" alt=""> <!-- icon local-->
+                                            <p>Brasil, PE</p>
+
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer" id="kel-footer">
+                                        <button type="button" class="btn" id="kel-btn-close" data-bs-dismiss="modal">Close</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- JUAN -->
+                    <div class="image-container">
+                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#juan">
+                            <img src="/assets/img/juan.svg" alt="">
+                            <h6>Juan Vinicius</h6>
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="juan" tabindex="-1">
+                            <div class="modal-dialog" id="dialog">
+                                <div class="modal-content" id="content">
+                                    <div class="modal-header" id="header">
+                                        <img src="/assets/img/juanIconNome.png" alt=""> <!--imagem q represente ou ela goste-->
+                                        <button type="button" class="btn-close  btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body" id="modal-body">
+                                        <div class="grid1">
+                                            <div class="nome">
+                                                <div>
+                                                    <h3>Juan</h3>
+                                                    <h3 class="sobrenome">Vinicius</h3>
+                                                </div>
+                                                <img src="/assets/img/juanIconNome.png" alt="">
+                                            </div>
+
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsum dicta quia quibusdam, dolorem necessitatibus consectetur nemo veritatis ex laborum laboriosam vero aperiam hic inventore neque nulla modi numquam Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi omnis fuga similique mollitia culpa voluptatum iure natus quae? At perspiciatis sapiente illum sed soluta dolores delectus numquam explicabo reprehenderit fugit!</p>
+                                        </div>
+                                        <div class="grid2">
+                                            <img class="perfil" src="/assets/img/juanModal.png" alt="">
+                                            <div class="box-down">
+                                                <a href=""><img src="/assets/img/juanIcon (2).svg" alt=""></a><!--linkedin-->
+                                                <a href=""><img src="/assets/img/juanIcon (1).svg" alt=""></a><!--github-->
+                                                <a href=""><img src="/assets/img/juanIcon (3).svg" alt=""></a><!--Discord?-->
+                                                <a href=""><img src="/assets/img/juanIcon (4).svg" alt=""></a><!--instagram-->
+                                            </div>
+                                            <img src="" alt=""> <!--icon Mail-->
+                                            <p>Mail.com</p>
+
+                                            <img src="" alt=""> <!-- icon local-->
+                                            <p>Brasil, PE</p>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer" id="juan-footer">
+                                        <button type="button" class="btn" id="juan-btn-close" data-bs-dismiss="modal">Close</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- JASON -->
+                    <div class="image-container">
+                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#jason">
+                            <img src="/assets/img/jason.svg" alt="">
+                            <h6>Jason de Morais</h6>
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="jason" tabindex="-1">
+                            <div class="modal-dialog" id="dialog">
+                                <div class="modal-content" id="content">
+                                    <div class="modal-header" id="header">
+                                        <img src="/assets/img/jasonIconNome.png" alt=""> <!--imagem q represente ou ela goste-->
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body" id="modal-body">
+                                        <div class="grid1">
+                                            <div class="nome">
+                                                <div>
+                                                    <h3>Jason</h3>
+                                                    <h3 class="sobrenome">Morais</h3>
+                                                </div>
+                                                <img src="/assets/img/jasonIconNome.png" alt="">
+                                            </div>
+
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsum dicta quia quibusdam, dolorem necessitatibus consectetur nemo veritatis ex laborum laboriosam vero aperiam hic inventore neque nulla modi numquam Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi omnis fuga similique mollitia culpa voluptatum iure natus quae? At perspiciatis sapiente illum sed soluta dolores delectus numquam explicabo reprehenderit fugit!</p>
+                                        </div>
+                                        <div class="grid2">
+                                            <img class="perfil" src="/assets/img/jasonModal.png" alt="">
+                                            <div class="box-down">
+                                                <a href=""><img src="/assets/img/jasonIcon (2).svg" alt=""></a><!--linkedin-->
+                                                <a href=""><img src="/assets/img/jasonIcon (3).svg" alt=""></a><!--Discord?-->
+                                                <a href=""><img src="/assets/img/jasonIcon (4).svg" alt=""></a><!--instagram-->
+                                                <a href=""><img src="/assets/img/jasonIcon (1).svg" alt=""></a><!--github-->
+                                            </div>
+                                            <img src="" alt=""> <!--icon Mail-->
+                                            <p>Mail.com</p>
+
+                                            <img src="" alt=""> <!-- icon local-->
+                                            <p>Brasil, PE</p>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer" id="jason-footer">
+                                        <button type="button" class="btn" id="jason-btn-close" data-bs-dismiss="modal">Close</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ANDRE -->
+                    <div class="image-container">
+                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#andre">
+                            <img src="/assets/img/andre.svg" alt="">
+                            <h6>Andre Felipe</h6>
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="andre" tabindex="-1">
+                            <div class="modal-dialog" id="dialog">
+                                <div class="modal-content" id="content">
+                                    <div class="modal-header" id="header">
+                                        <img src="/assets/img/andreIconNome.png" alt=""> <!--imagem q represente ou ela goste-->
+                                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body" id="modal-body">
+                                        <div class="grid1">
+                                            <div class="nome">
+                                                <div>
+                                                    <h3>Andre</h3>
+                                                    <h3 class="sobrenome">Felipe</h3>
+                                                </div>
+                                                <img src="/assets/img/andreIconNome.png" alt="">
+                                            </div>
+
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsum dicta quia quibusdam, dolorem necessitatibus consectetur nemo veritatis ex laborum laboriosam vero aperiam hic inventore neque nulla modi numquam Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi omnis fuga similique mollitia culpa voluptatum iure natus quae? At perspiciatis sapiente illum sed soluta dolores delectus numquam explicabo reprehenderit fugit!</p>
+                                        </div>
+                                        <div class="grid2">
+                                            <img class="perfil" src="/assets/img/andreModal.png" alt="">
+                                            <div class="box-down">
+                                                <a href=""><img src="/assets/img/andreIcon (2).svg" alt=""></a><!--linkedin-->
+                                                <a href=""><img src="/assets/img/andreIcon (1).svg" alt=""></a><!--github-->
+                                                <a href=""><img src="/assets/img/andreIcon (3).svg" alt=""></a><!--Discord?-->
+                                                <a href=""><img src="/assets/img/andreIcon (4).svg" alt=""></a><!--instagram-->
+                                            </div>
+                                            <img src="" alt=""> <!--icon Mail-->
+                                            <p>Mail.com</p>
+
+                                            <img src="" alt=""> <!-- icon local-->
+                                            <p>Brasil, PE</p>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer" id="andre-footer">
+                                        <button type="button" class="btn" id="andre-btn-close" data-bs-dismiss="modal">Close</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <h5>Juntos conectamos você ao poder do conhecimento!</h5>
+        </div>
+    </section>
 
 
 
-    
-    <div class="construcao">
-        <img src="/assets/img/emcontrucao.svg" alt="">
-    </div>
 
 
 
@@ -47,57 +345,41 @@
 
 
 
+
+
+
+    <!--footer-->
     <footer>
 
-        <!-- <div class="brand">
-            <img src="/assets/img/logoClara.svg" alt="logo" width="250px" height="80px">
-        </div> -->
-
-        <div class="description">
-            <div>
-                <h2>Documentação</h2>
-                <ul class="documents">
-                    <li><a
-                            href="https://trello.com/invite/b/64f67994218f1cc031ae97c1/ATTIfcbbc5c100e0a50dbbf7d403551e441019D1BBEB/projeto-web">Trello</a>
-                    </li>
-                    <hr>
-                    <li><a
-                            href="https://www.figma.com/design/7zMobIKnZmJXGi08oV8Jnk/Biblioteca-Inteligente?node-id=0-1&t=UsdpzOOvaRXDcNxB-1">Figma</a>
-                    </li>
-                    <hr>
-                    <li><a href="https://miro.com/app/board/uXjVKkKJPhc=/?share_link_id=499104984677">Fluxo de telas</a>
-                    </li>
-                    <hr>
-                    <li><a
-                            href="https://docs.google.com/spreadsheets/d/1csi-Ykg_VNSCPHKqubEA9D4xaXLX-KLKQFd30O_MdCg/edit?usp=sharing">Backlog</a>
-                    </li>
-                    <hr>
-                    <li><a
-                            href="https://drive.google.com/drive/folders/14W8FapnuKJ6_DtfP99gdZBoE8-SBSal0?usp=drive_link">Drive</a>
-                    </li>
-                </ul>
+        <div class="footer-container">
+            <div class="logo-section">
+                <h2 class="logo-title">Scripta</h2>
+                <p class="slogan">Conectando você ao poder do conhecimento</p>
             </div>
-        </div>
-
-        <div class="brand">
-            <img src="../assets/img/loog.png" alt="logo" width="250px" height="80px">
+            <nav class="navigation-links">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="#">Quem somos?</a></li>
+                    <li><a href="#topo">Nossa Equipe</a></li>
+                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#">Planos de Estratégia</a></li>
+                    <li><a href="#">Modelo de Negócio</a></li>
+                </ul>
+            </nav>
+            <p class="copyright">&copy; 2024 Scripta. Todos os direitos reservados.</p>
         </div>
 
     </footer>
 
 
 
-    <!-- fim MY -->
     <!-- bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-        crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -21,7 +21,7 @@ header{
   align-items: center;
 }
 
-/* .opcoes a{ 
+.opcoes a{ 
   background-color: #fff;
   margin: 0 .2em; 
   padding: .5rem 1.5rem;
@@ -31,7 +31,7 @@ header{
   font-size: 2.2vh;
   text-decoration: underline;          
   text-underline-offset: 3px;  
-} */
+} 
 
 .btn-secondary.dropdown-toggle{
   background-color: #fff;
