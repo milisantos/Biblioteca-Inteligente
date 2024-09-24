@@ -7,6 +7,7 @@
     font-family: 'Roboto';
     display: grid;
     grid-template-columns: 60% 40%;
+    margin-top: 2rem;
 }
 .integrantes .text h1{
     margin: 3.5rem  5rem 0 ;
@@ -29,21 +30,25 @@
 }
 
 .box2 img{
-    width: 25vw;
-    margin: 3rem 0 0;
+    width: 38vw;
+    margin: 3rem 3rem 0 1rem;
+    border-radius: 7rem;
+    opacity: .9;
+    box-shadow: 0 2px 25px rgba(0, 80, 157,0.25);
+
 }
 
 .integrantes .quemSomos{
-    margin: 5rem .8rem;
+    margin: 7rem .8rem 0;
     background-color: #dae5fa;
     border-radius: 20px;
     border: #ADD8E6 3px solid;
     padding: 1rem 0 3rem;
 }
 
-.integrantes .quemSomos h2{
-    padding: 3rem 2rem 2rem;
-    font-size: 4.4vh;
+.integrantes .quemSomos h4{
+    padding: 2.5rem 4rem 2rem;
+    font-size: 3vh;
     font-weight: 600;
     color: #00274C;
     
@@ -62,10 +67,6 @@
     place-items: center;
 }
 
-.integrantes img{  
-    cursor: pointer;
-    border: none;
-}
 
 .integrantes h5{
     font-style: italic;
@@ -75,14 +76,30 @@
     font-weight: 500;
 }
 
+
+
+
+
+
 /* --- MODAL --- */
 .modal{
     width: 80vw;
 }
 
 .image-container .btn img{
-    width: 8vw;
+    width: 10vw;
+    border-radius: 90px;
+    border: #00274cda 2px solid;
+
 }
+.image-container .btn img:hover{
+    width: 10.5vw;
+    transition: width .2s ease-in;
+    border-radius: 80px;
+    border: #696969 2px solid;
+    box-shadow: 0 2px 25px rgb(100, 99, 99);
+}
+
 
 #content{
     display:grid;
@@ -116,53 +133,69 @@
     text-align: justify;
     margin-top: 2rem;
 }
-
-
-
-
-
-
 #modal-body .grid1 h3{
     font-size: 8vh;
-    font-family: 'Artifika';
+    
     
 }
 #modal-body .grid1 .sobrenome{
     padding-left: 5rem;
     margin-bottom: 3rem;
 }
-
-
-
-
-
 .grid1 .nome{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 .grid1 .nome h3{
     line-height: .9;
+    margin-top: 1rem;
 }
+
 #modal-body .grid2{
     display: grid;
     place-items: center;
     margin-bottom: 0;
+    margin-left: 2rem;
+    justify-content: start;
 }
-
+#modal-body .grid2 .perfil{
+    margin-left: 2.5rem;
+}
 
 #modal-body .grid2 .box-down {
     display: grid;
     grid-template-columns: repeat(4,25%);
-    /* background-color:red; */
     gap: .8rem;
     margin-bottom: 2rem;
     place-items: center;
-
 }
 
 #modal-body .grid2 .box-down img{
     width: 3vw;
-    /* border: #00274C 5px solid; */
+}
+#modal-body .grid2 .box-down2{
+    display: grid;
+    grid-template-columns: 10% auto;
+    gap: .4rem;
+    margin-left: 2rem;
+    justify-content: start;
+}
+.grid2 .box-down2 img{
+    width: 1.5vw;
+    align-self: start;
+    justify-content: start;
+    margin-bottom: .8rem;
+    margin-right: 2rem;
+}
+.grid2 .box-down2 p{
+    place-self: center;
+    font-size: 2.2vh;
+    line-height: .5;
+}
+.grid2 .box-down2 .from{
+    grid-column: 2;
+    line-height: .5;
+    /* place-self: end; */
 }
 
 .modal-footer #btn-close{
@@ -173,6 +206,10 @@
 /* -- M Y L E N A -- */
 #mylena #header{
     background-color: #BFA4C3;
+}
+#mylena .nome{
+    font-family: 'Quicksand';
+    font-weight: 700;
 }
 #mylena .nome .sobrenome{
     color: #7A288A;
@@ -207,10 +244,16 @@
     font-size: 10vh;
 
 }
+#mylena .grid2 .box-down2 p{
+    text-shadow: 2px 2px 5px rgba(122, 40, 138, .7); /* Sombra com cor leve */
+}
 
 /* -- K E L -- */
 #kel #header{
     background-color: #6E8280;
+}
+#kel .nome{
+    font-family: 'Artifika';
 }
 
 #kel .nome .sobrenome{
@@ -248,21 +291,28 @@
 #kel .grid1 h3{
     font-size: 9vh;
 }
-#kel .grid1 .nome-top{
-    padding-top: 2rem;
+#kel #modal-body .grid2 .box-down2{
+    text-shadow: 2px 2px 5px rgb(236, 52, 76, .8); 
 }
 
 
 /*  -- J U A A N -- */
+
 #juan #header{
     background-color: #313330;
 }
-
+#juan .nome{
+    font-family: 'Libre Baskerville';
+}
 #juan .nome .sobrenome{
     color: #59001C;
 }
 #juan .nome{
     padding-left: 1rem;
+}
+#juan .grid1 h3{
+    font-size: 9vh;
+
 }
 #juan .nome img{
     width: 6vw;
@@ -293,16 +343,19 @@
    font-weight: 700;
 
 }
-#juan .grid1 h3{
-    font-size: 10vh;
-
+#juan .grid2 .box-down2 p{
+    text-shadow: 2px 2px 5px rgba(89, 0, 28,0.5); /* Sombra com cor leve */
 }
+
+
 
 /*  -- J A S O N --  */
 #jason #header{
     border: #577C8E 1.5px solid;
 }
-
+#jason .nome{
+    font-family: 'Jost';
+}
 #jason .nome .sobrenome{
     color: #2F4157;
 }
@@ -341,6 +394,9 @@
     font-size: 10vh;
 
 }
+#jason .grid2 .box-down2 p{
+    text-shadow: 2px 2px 5px rgba(87,124,142,.7); /* Sombra com cor leve */
+}
 
 
 /*  -- A N D R E --  */
@@ -350,7 +406,9 @@
 #andre #header img{
     margin-left: .7rem;
 }
-
+#andre .nome{
+    font-family: 'Baloo Bhaijaan 2';
+}
 #andre .nome .sobrenome{
     color: #956656;
 }
@@ -389,3 +447,200 @@
     font-size: 10vh;
 
 }
+#andre .grid2 .box-down2 p{
+    text-shadow: 2px 2px 5px rgba(0,0,0,.4); /* Sombra com cor leve */
+}
+
+
+
+
+
+
+/* Responsividade para telas pequenas e mobile */
+@media (max-width: 768px) {
+    .integrantes .text {
+        display: block;
+        margin: 1rem;
+
+    }
+
+    .integrantes .text h1 {
+        margin: 3rem 1rem 0;
+        font-size: 5vh;
+        text-align: center;
+    }
+
+    .integrantes .text p {
+        margin: 1rem 1rem;
+        font-size: 2.4vh;
+        text-align: justify;
+    }
+
+    .integrantes .quemSomos {
+        margin: 4rem 1rem;
+        padding: 1rem;
+        border-radius: 15px;
+    }
+
+    .integrantes .quemSomos h4 {
+        font-size: 2.4vh;
+        padding: 1rem 2rem;
+        text-align: center;
+    }
+
+    .integrantes .quemSomos h6 {
+        font-size: 2.5vh;
+    }
+
+    .integrantes .equipe {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        margin-top: 3rem;
+    }
+
+    .box2 {
+        display: none; /* Esconder a imagem da box2 em telas pequenas */
+    }
+
+    .integrantes h5 {
+        font-size: 2.2vh;
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+   /* --- MODAL --- */
+.modal {
+    width: 80vw;
+    
+}
+
+.image-container .btn img {
+    width: 18vw;
+    border-radius: 90px;
+    border: #00274cda 2px solid;
+}
+
+.image-container .btn img:hover {
+    width: 10.5vw;
+    transition: width 0.2s ease-in;
+    border-radius: 80px;
+    border: #696969 2px solid;
+    box-shadow: 0 2px 25px rgb(100, 99, 99);
+}
+
+#content {
+    display: grid;
+    place-self: center;
+    width: 450px; /* Alterado para 100% para melhor responsividade */
+    height: auto;
+    padding: 0 1rem; /* Adicionado padding para dispositivos pequenos */
+    left: 8%;
+    right: 0%;
+}
+
+#header {
+    height: 7vh;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    /* padding: 0 5rem; */
+}
+#header img {
+    display: none;
+}
+
+
+#modal-body {
+    display: grid;
+    grid-template-columns: 1fr; /* Alterado para 1 coluna para dispositivos pequenos */
+    padding: 1.5rem 0; /* Ajustado para espaçamento vertical */
+   
+}
+
+#modal-body .grid1 {
+    display: block;
+}
+
+#modal-body .grid1 p {
+    font-size: 2.5vh; /* Aumentado para melhor legibilidade em telas pequenas */
+    color: #696969;
+    text-align: justify;
+    margin-top: 1rem; /* Reduzido para melhor espaçamento */
+}
+
+#modal-body .grid1 h3 {
+    font-size: 7vh; /* Reduzido para melhor encaixe em telas pequenas */
+}
+
+#modal-body .grid1 .sobrenome {
+    padding-left: 2rem; /* Removido para não ocupar espaço em telas pequenas */
+    
+}
+
+.grid1 .nome {
+    display: grid;
+    grid-template-columns: 60% auto; /* Alterado para 1 coluna */
+}
+
+.grid1 .nome h3 {
+    line-height: 1.1; /* Ajustado para melhor legibilidade */
+    margin-top: 0.5rem; /* Reduzido para melhor espaçamento */
+}
+#mylena .grid1 .nome img{
+    display: grid;
+    place-items: start;
+    place-self: start;
+    width: 25vw;
+}
+
+#modal-body .grid2 {
+    display: grid;
+    place-items: center;
+}
+
+#modal-body .grid2 .perfil {
+    margin-left: 0; /* Removido para melhor alinhamento */
+}
+
+#modal-body .grid2 .box-down {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 2rem; 
+    margin-bottom: 1rem; 
+    place-items: center;
+}
+
+#modal-body .grid2 .box-down img {
+    width: 10vw; 
+}
+
+#modal-body .grid2 .box-down2 {
+    display: grid;
+    grid-template-columns: 20% auto; 
+    gap: 0.4rem;
+    justify-content: start;
+    margin-top: 2rem;
+}
+
+.grid2 .box-down2 img {
+    width: 5vw; /* Aumentado para melhor visualização */
+    align-self: start;
+    margin-bottom: 0.8rem;
+}
+
+.grid2 .box-down2 p {
+    place-self: center;
+    font-size: 2.5vh; /* Aumentado para melhor legibilidade */
+    line-height: 1.2; /* Ajustado para melhor legibilidade */
+}
+
+.grid2 .box-down2 .from {
+    grid-column: 2;
+    line-height: 1.2; /* Ajustado para melhor legibilidade */
+}
+
+.modal-footer #btn-close {
+    background-color: #696969;
+}
+
+}
+

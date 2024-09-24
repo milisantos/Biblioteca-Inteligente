@@ -26,21 +26,6 @@
             <a href="#">Estratégia</a>
             <a href="#">Produto</a>
 
-
-            <!-- <div class="dropdown">
-                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Home
-                </a>
-
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Quem somos?</a></li>
-                    <li><a class="dropdown-item" href="#">Nossa Equipe</a></li>
-                    <li><a class="dropdown-item" href="#">Nossos Produtos</a></li>
-                    <li><a class="dropdown-item" href="#">Modelo de Négocio</a></li>
-                    <li><a class="dropdown-item" href="#">Planejamento Estratégico</a></li>
-                </ul>
-            </div> -->
-
         </div>
     </header>
 
@@ -59,16 +44,16 @@
                     </p>
                 </div>
                 <div class="box2">
-                    <img src="/assets/img/box2.svg" alt="">
+                    <img src="/assets/img/equipe.png" alt="">
                 </div>
             </div>
 
             <div class="quemSomos">
-                <h2>Quem somos?</h2>
+                <h4>Conheça um pouco sobre nós:</h4>
                 <div class="equipe">
 
                     <!-- MYLENA -->
-                    <div class="image-container">
+                    <div class="image-container" id="mylena-container">
                         <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#mylena">
                             <img id="my" src="/assets/img/my.svg" alt="">
                             <h6>Mylena Rayane</h6>
@@ -91,7 +76,11 @@
                                                 <img src="/assets/img/myIconNome.png" alt="">
                                             </div>
 
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsum dicta quia quibusdam, dolorem necessitatibus consectetur nemo veritatis ex laborum laboriosam vero aperiam hic inventore neque nulla modi numquam Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi omnis fuga similique mollitia culpa voluptatum iure natus quae? At perspiciatis sapiente illum sed soluta dolores delectus numquam explicabo reprehenderit fugit!</p>
+                                            <p>Apaixonada por tecnologia e seu potencial transformador, eu ingressei nesse
+                                                universo através do programa Embarque Digital. Me encantei pela área de
+                                                Desenvolvimento Web. Adoro o processo de construção tecnológica, desde a
+                                                concepção à implementação, e me dedico a aprender e me aprimorar
+                                                constantemente. Na Scripta, atuo como Desenvolvedora Front end e busco trazer cada vez mais conforto e usabilidade para nossos clientes.</p>
                                         </div>
                                         <div class="grid2">
                                             <img class="perfil" src="/assets/img/myModal.png" alt="">
@@ -101,11 +90,11 @@
                                                 <a href=""><img src="/assets/img/myIcon (3).svg" alt=""></a><!--Discord?-->
                                                 <a href=""><img src="/assets/img/myIcon (4).svg" alt=""></a><!--instagram-->
                                             </div>
-                                            <img src="" alt=""> <!--icon Mail-->
-                                            <p>Mail.com</p>
-
-                                            <img src="" alt=""> <!-- icon local-->
-                                            <p>Brasil, PE</p>
+                                            <div class="box-down2">
+                                                <img src="/assets/img/myIconMail.png" alt="">
+                                                <p> Mylenarayane11@gmail.com</p>
+                                                <p class="from">Brasil, PE</p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="modal-footer" id="my-footer">
@@ -119,14 +108,14 @@
                     </div>
 
                     <!-- KEROLAINY -->
-                    <div class="image-container">
+                    <div class="image-container" id="kel-container">
                         <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#kel">
                             <img src="/assets/img/kel.svg" alt="">
                             <h6>Kerolainy Cristiny</h6>
                         </button>
 
                         <!-- Modal -->
-                        <div class="modal fade" id="kel" tabindex="-1">
+                        <div class="modal fade" id="kel" tabindex="-1"  aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog" id="dialog">
                                 <div class="modal-content" id="content">
                                     <div class="modal-header" id="header">
@@ -143,11 +132,10 @@
                                                 <img src="/assets/img/kelIconNome.png" alt="">
                                             </div>
 
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsum dicta quia quibusdam, dolorem necessitatibus consectetur nemo veritatis ex laborum laboriosam vero aperiam hic inventore neque nulla modi numquam Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi omnis fuga similique mollitia culpa voluptatum iure natus quae? At perspiciatis sapiente illum sed soluta dolores delectus numquam explicabo reprehenderit fugit!</p>
+                                            <p>Sou uma apaixonada por tecnologia, sempre explorando novos caminhos e desafios. Gosto de me ver como alguém curiosa e determinada, que não se contenta em aprender apenas o básico. Hoje, estou na Scripta, onde atuo como designer e front-end. Meu maior objetivo? Criar interfaces que encantem e facilitem a vida dos usuários. Nada me motiva mais do que ver alguém interagir de forma fluida e prazerosa com algo que criei. Cada dia é uma nova oportunidade de crescer e descobrir como posso transformar ideias em experiências que realmente fazem a diferença.</p>
                                         </div>
                                         <div class="grid2">
-                                            
-                                            <img src="/assets/img/kelModal.png" alt="">
+                                            <img class="perfil" src="/assets/img/kelModal.png" alt="">
                                             <div class="box-down">
                                                 <a href=""><img src="/assets/img/kelIcon (2).svg" alt=""></a><!--linkedin-->
                                                 <a href=""><img src="/assets/img/kelIcon (3).svg" alt=""></a><!--github-->
@@ -155,13 +143,11 @@
                                                 <a href=""><img src="/assets/img/kelIcon (1).svg" alt=""></a><!--instagram-->
                                             </div>
 
-
-                                            <img src="" alt=""> <!--icon Mail-->
-                                            <p>Mail.com</p>
-
-                                            <img src="" alt=""> <!-- icon local-->
-                                            <p>Brasil, PE</p>
-
+                                            <div class="box-down2">
+                                                <img src="/assets/img/kelIconMail.png" alt="">
+                                                <p> K.cy703@gmail.com</p>
+                                                <p class="from">Brasil, PE</p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="modal-footer" id="kel-footer">
@@ -174,7 +160,7 @@
                     </div>
 
                     <!-- JUAN -->
-                    <div class="image-container">
+                    <div class="image-container" id="juan-container">
                         <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#juan">
                             <img src="/assets/img/juan.svg" alt="">
                             <h6>Juan Vinicius</h6>
@@ -198,7 +184,7 @@
                                                 <img src="/assets/img/juanIconNome.png" alt="">
                                             </div>
 
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsum dicta quia quibusdam, dolorem necessitatibus consectetur nemo veritatis ex laborum laboriosam vero aperiam hic inventore neque nulla modi numquam Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi omnis fuga similique mollitia culpa voluptatum iure natus quae? At perspiciatis sapiente illum sed soluta dolores delectus numquam explicabo reprehenderit fugit!</p>
+                                            <p>Sou um entusiasta por dados e tudo o que envolve o funcionamento por trás das aplicações. Desde o início da minha jornada na tecnologia, sempre fui fascinado por como os sistemas operam de maneira invisível aos olhos do usuário, e é nesse "mundo oculto" que me sinto em casa. Meu trabalho na Scripta como engenheiro de dados e back-end é garantir que cada informação flua de maneira precisa e eficiente.</p>
                                         </div>
                                         <div class="grid2">
                                             <img class="perfil" src="/assets/img/juanModal.png" alt="">
@@ -208,11 +194,11 @@
                                                 <a href=""><img src="/assets/img/juanIcon (3).svg" alt=""></a><!--Discord?-->
                                                 <a href=""><img src="/assets/img/juanIcon (4).svg" alt=""></a><!--instagram-->
                                             </div>
-                                            <img src="" alt=""> <!--icon Mail-->
-                                            <p>Mail.com</p>
-
-                                            <img src="" alt=""> <!-- icon local-->
-                                            <p>Brasil, PE</p>
+                                            <div class="box-down2">
+                                                <img src="/assets/img/juanIconMail.png" alt="">
+                                                <p> Juan.vinicius@gmail.com</p>
+                                                <p class="from">Brasil, PE</p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="modal-footer" id="juan-footer">
@@ -225,7 +211,7 @@
                     </div>
 
                     <!-- JASON -->
-                    <div class="image-container">
+                    <div class="image-container" id="jason-container">
                         <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#jason">
                             <img src="/assets/img/jason.svg" alt="">
                             <h6>Jason de Morais</h6>
@@ -249,7 +235,7 @@
                                                 <img src="/assets/img/jasonIconNome.png" alt="">
                                             </div>
 
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsum dicta quia quibusdam, dolorem necessitatibus consectetur nemo veritatis ex laborum laboriosam vero aperiam hic inventore neque nulla modi numquam Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi omnis fuga similique mollitia culpa voluptatum iure natus quae? At perspiciatis sapiente illum sed soluta dolores delectus numquam explicabo reprehenderit fugit!</p>
+                                            <p>Sou um desenvolvedor apaixonado pelo back-end, onde a mágica realmente acontece. Desde que entrei no mundo da programação, me encontrei no lado "invisível" das aplicações, aquele que sustenta toda a estrutura sem ser notado. Na Scripta minhas maiores forças estão na construção de sistemas escaláveis e eficientes. Sempre me esforço para escrever códigos limpos, organizados e fáceis de manter. Gosto de pensar em soluções robustas que possam lidar com grande quantidade de dados e tráfego, garantindo que tudo funcione de maneira ágil e segura.</p>
                                         </div>
                                         <div class="grid2">
                                             <img class="perfil" src="/assets/img/jasonModal.png" alt="">
@@ -259,11 +245,11 @@
                                                 <a href=""><img src="/assets/img/jasonIcon (4).svg" alt=""></a><!--instagram-->
                                                 <a href=""><img src="/assets/img/jasonIcon (1).svg" alt=""></a><!--github-->
                                             </div>
-                                            <img src="" alt=""> <!--icon Mail-->
-                                            <p>Mail.com</p>
-
-                                            <img src="" alt=""> <!-- icon local-->
-                                            <p>Brasil, PE</p>
+                                            <div class="box-down2">
+                                                <img src="/assets/img/jasonIconMail.png" alt="">
+                                                <p> Jason.morais@gmail.com</p>
+                                                <p class="from">Brasil, PE</p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="modal-footer" id="jason-footer">
@@ -276,10 +262,10 @@
                     </div>
 
                     <!-- ANDRE -->
-                    <div class="image-container">
+                    <div class="image-container" id="andre-container">
                         <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#andre">
                             <img src="/assets/img/andre.svg" alt="">
-                            <h6>Andre Felipe</h6>
+                            <h6>André Felipe</h6>
                         </button>
 
                         <!-- Modal -->
@@ -294,13 +280,13 @@
                                         <div class="grid1">
                                             <div class="nome">
                                                 <div>
-                                                    <h3>Andre</h3>
+                                                    <h3>André</h3>
                                                     <h3 class="sobrenome">Felipe</h3>
                                                 </div>
                                                 <img src="/assets/img/andreIconNome.png" alt="">
                                             </div>
 
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsum dicta quia quibusdam, dolorem necessitatibus consectetur nemo veritatis ex laborum laboriosam vero aperiam hic inventore neque nulla modi numquam Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi omnis fuga similique mollitia culpa voluptatum iure natus quae? At perspiciatis sapiente illum sed soluta dolores delectus numquam explicabo reprehenderit fugit!</p>
+                                            <p>Sou um desenvolvedor back-end com uma mente estratégica e voltada para soluções de longo prazo. Para mim, o verdadeiro valor de um sistema está na sua capacidade de evoluir e se adaptar às mudanças ao longo do tempo. Trabalho para criar estruturas flexíveis, preparadas para crescer junto com as demandas do projeto. Na Scripta mostro minha capacidade de resolver problemas complexos e minha paixão por arquitetura de software. Gosto de pensar além do código imediato e projetar soluções que serão fáceis de escalar e manter, mesmo com o passar dos anos.</p>
                                         </div>
                                         <div class="grid2">
                                             <img class="perfil" src="/assets/img/andreModal.png" alt="">
@@ -310,11 +296,11 @@
                                                 <a href=""><img src="/assets/img/andreIcon (3).svg" alt=""></a><!--Discord?-->
                                                 <a href=""><img src="/assets/img/andreIcon (4).svg" alt=""></a><!--instagram-->
                                             </div>
-                                            <img src="" alt=""> <!--icon Mail-->
-                                            <p>Mail.com</p>
-
-                                            <img src="" alt=""> <!-- icon local-->
-                                            <p>Brasil, PE</p>
+                                            <div class="box-down2">
+                                                <img src="/assets/img/andreIcnMail.png" alt="">
+                                                <p> Andre.felipe@gmail.com</p>
+                                                <p class="from">Brasil, PE</p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="modal-footer" id="andre-footer">
