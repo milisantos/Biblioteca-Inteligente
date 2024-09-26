@@ -82,9 +82,9 @@
 
 
 /* --- MODAL --- */
-.modal{
+/* .modal{
     width: 80vw;
-}
+} */
 
 .image-container .btn img{
     width: 10vw;
@@ -457,7 +457,11 @@
 
 
 /* Responsividade para telas pequenas e mobile */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
+    .integrantes{
+        overflow-y: hidden;
+    }
+
     .integrantes .text {
         display: block;
         margin: 1rem;
@@ -510,8 +514,7 @@
 
    /* --- MODAL --- */
 .modal {
-    width: 80vw;
-    
+    width: 70vw;
 }
 
 .image-container .btn img {
@@ -531,10 +534,10 @@
 #content {
     display: grid;
     place-self: center;
-    width: 450px; /* Alterado para 100% para melhor responsividade */
+    width: 100%; 
     height: auto;
-    padding: 0 1rem; /* Adicionado padding para dispositivos pequenos */
-    left: 8%;
+    padding: 0 1rem;
+    left: 0%;
     right: 0%;
 }
 
@@ -561,10 +564,10 @@
 }
 
 #modal-body .grid1 p {
-    font-size: 2.5vh; /* Aumentado para melhor legibilidade em telas pequenas */
+    font-size: 2.3vh; 
     color: #696969;
     text-align: justify;
-    margin-top: 1rem; /* Reduzido para melhor espaçamento */
+    margin-top: 1rem; 
 }
 
 #modal-body .grid1 h3 {
@@ -578,7 +581,7 @@
 
 .grid1 .nome {
     display: grid;
-    grid-template-columns: 60% auto; /* Alterado para 1 coluna */
+    /* grid-template-columns: 60% auto;  */
 }
 
 .grid1 .nome h3 {
@@ -629,7 +632,7 @@
 
 .grid2 .box-down2 p {
     place-self: center;
-    font-size: 2.5vh; /* Aumentado para melhor legibilidade */
+    font-size: 2.3vh; /* Aumentado para melhor legibilidade */
     line-height: 1.2; /* Ajustado para melhor legibilidade */
 }
 
@@ -644,3 +647,13 @@
 
 }
 
+
+
+@media screen and (min-width: 1600px) {
+    #content{
+        display:grid;
+        width: 300%;
+        right: 100%;
+        left: -100%;
+    }
+}

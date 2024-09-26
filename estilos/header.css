@@ -1,60 +1,37 @@
-
-header{
+ header {
   margin: .5rem 2rem 0 3rem;
   display: grid;
   grid-template-columns: 25% 75%;
-  /* background-color: #ADD8E6;
-  box-shadow: 0 4px 8px rgba(173, 216, 230, 0.6), 0 6px 20px rgba(173, 216, 230, 0.4); */
+
 }
 
 
-.logo img{
+.logo img {
   width: 10vw;
   padding: .5rem;
   margin-left: .3rem;
 }
 
-.opcoes{
+.opcoes {
   font-family: "Roboto";
-  display: flex;              /* Define como um contêiner flexível */
-  justify-self: flex-end;   /* Alinha os itens ao final (direita) */
+  display: flex;
+  justify-self: flex-end;
   align-items: center;
 }
 
-.opcoes a{ 
+.opcoes a {
   background-color: #fff;
-  margin: 0 .2em; 
+  margin: 0 .2em;
   padding: .5rem 1.5rem;
   border-radius: 15px;
   font-weight: 500;
   color: #00274C;
   font-size: 2.2vh;
-  text-decoration: underline;          
-  text-underline-offset: 3px;  
-} 
-
-.btn-secondary.dropdown-toggle{
-  background-color: #fff;
-  margin: 0 .5em; 
-  padding: .5rem 1.5rem;
-  border-radius: 15px;
-  font-weight: 500;
-  color: #00274C;
-  font-size: 2.2vh;
-  text-decoration: underline;          
-  text-underline-offset: 3px;          
-} 
-
-.btn-secondary.dropdown-toggle:focus, 
-.btn-secondary.dropdown-toggle:active {
-    background-color: #004085;
-    border-color: #00274C; 
-    color: #ffffff; 
-    box-shadow: 0 4px 8px rgba(173, 216, 230, 0.6), 0 6px 20px rgba(173, 216, 230, 0.4);
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
-
-.opcoes a:hover{
+.opcoes a:hover {
   text-decoration: none;
   background-color: #ADD8E6;
   padding: .5rem 1.6rem;
@@ -64,4 +41,32 @@ header{
   transition-duration: .5s;
   box-shadow: 0 4px 8px rgba(173, 216, 230, 0.6), 0 6px 20px rgba(173, 216, 230, 0.4);
 
+}
+
+.btn-secondary.dropdown-toggle {
+  display: none;
+}
+
+
+
+
+
+/* Media query para telas menores */
+@media screen and (max-width: 900px) {
+  header {
+    margin: .5rem 2rem 0 1rem;
+      
+  }
+
+  .logo img {
+      width: auto;
+      height: 8vh;
+      margin-bottom: 0;
+  }
+
+  .opcoes a {
+      /* display: none; */
+    font-size: 1.8vh;
+
+  }
 }

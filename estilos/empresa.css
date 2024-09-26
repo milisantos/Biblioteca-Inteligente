@@ -56,3 +56,15 @@
   font-size:  2.3vh;
   color: #696969;
 }
+
+/* Media query para telas menores */
+@media screen and (max-width: 900px) {
+
+  .empresa img{
+    display: none;
+  }
+  .empresa{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

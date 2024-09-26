@@ -43,3 +43,14 @@
 .projeto img{
   width: 40vw;
 }
+/* Media query para telas menores */
+@media screen and (max-width: 900px) {
+
+  .projeto{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .projeto img{
+    display: none;
+  }
+}
