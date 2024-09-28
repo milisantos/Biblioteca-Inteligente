@@ -1,2 +1,111 @@
+/* secao quem somos */
+.quemsomos{
+    background-color: #ECDFDC;
+    max-width: 1920px;
+    display: flex;
+    justify-content: center;
+    
+}
 
+ h2{
+  margin-left: 1em;
+   
+    
+}
 
+.container-texto{
+   max-width: 80vw;
+   display: flex;
+   gap: 5em;
+   background-color: brown;
+   margin-top: 20px;
+   
+
+}
+
+.texto{
+ background-color: aqua;
+ font-size: x-large;
+ width: 100%;
+ width: fit-content;
+}
+
+.container-apoiadores{
+  background-color:#ECDFDC;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.box-logos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 15px;
+}
+
+.item-container {
+  background-color:#ecd5d2;
+  border-radius: 5px;
+}
+
+.detalhe{
+  background-color: #ecd5d2;
+}
+
+#espaco{
+margin: 3em 0.50em;
+}
+
+/* secao servicos */
+.servicos{
+  background-color: #ADD8E6;
+  margin-top:15px ;
+  
+}
+
+.texto-impacto{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.container-sevicos{
+  background-color: #d25ab4;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+.servico{
+ 
+  background-color: #EBF0FA;
+  height: 28vh;
+  width: 35%; /* Define a largura máxima do div filho como 49% para garantir um pequeno espaço entre eles */
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+ 
+
+}
+
+.box-imagem{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titulo-servico{
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.titulo-servico h2{
+  margin: 0;
+}
+
+ 
