@@ -2,19 +2,27 @@
     width: 100%; 
     height: auto;
 } */
-
+#faixa{
+    text-align: center;
+    background-color: #EBF0FA;
+    margin: 0;
+    color:#00274C ;
+    font-size: 3em;
+}
 /* posicionamentos dos elementos */
 .mockup{
-    height: 75vh;
+    /* height: 75vh; */
     background-color: #EBF0FA;
     width: 100%;
-    /* height: auto; */
     padding: 2em;
+    
 
 }
 
 .container{
+    width: 100%;
     display: flex;
+    justify-content: center;
     flex-direction: row;
     gap: 4em;
     
@@ -22,21 +30,30 @@
 }
 
 .mockup-funcionario{
-    width: 100%;
+    width: 60%;
+    height: 70vh;
     box-shadow: 6px 5px 5px rgba(0, 0, 0, 0.387);
     
 
 }
 
+.conteudo{
+    width: 40%;
+    
+}
+
+.texto-funcoes{
+    width: 100%;
+}
 .mockup-funcionario img{
     width: 100%;
-    height: 50vh;
+    height: 100%;
     object-fit: cover;
 }
 
 .mockup-cliente {
-    width: 100%;
-    height: 60vh;
+    width: 60%;
+    height: 70vh;
     box-shadow: 6px 5px 5px  rgba(0, 0, 0, 0.387);
     /* height: 80vh; */
 }
@@ -51,6 +68,7 @@
     display: none;
 }
 
+/* planos */
 .planos-ficticios{
     height: 100vh;
     display: flex;
@@ -59,7 +77,7 @@
     align-items: center;
     gap: 25px;
 }
-/* planos */
+
 .plano{
     background-color: rebeccapurple;
 }
@@ -97,3 +115,12 @@ b{
     text-decoration: none;
 }
 
+.titulo{
+    position: relative;
+    right: 20px;
+    margin-bottom:30px ;
+    word-wrap: break-word;
+}
+h5{
+    text-align: left;
+}
