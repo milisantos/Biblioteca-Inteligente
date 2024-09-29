@@ -1,4 +1,9 @@
 /* secao quem somos */
+
+.quem{
+  padding-top: 2rem;
+  background-color: #ECDFDC;
+}
 .quemsomos{
     background-color: #ECDFDC;
     max-width: 1920px;
@@ -7,11 +12,10 @@
     
 }
 
- h2{
-  margin-left: 1em;
-   
-    
+#titulo-quemsomos{
+  text-align: center;
 }
+
 
 .container-texto{
    max-width: 80vw;
@@ -60,8 +64,10 @@ margin: 3em 0.50em;
 
 /* secao servicos */
 .servicos{
-  background-color: #ADD8E6;
+  /* background-color: #ADD8E6; */
+  background-color: #236DF0;
   margin-top:15px ;
+  height:90vh;
   
 }
 
@@ -71,7 +77,8 @@ margin: 3em 0.50em;
   padding: 20px;
 }
 .container-sevicos{
-  background-color: #d25ab4;
+  /* background-color: #d25ab4; */
+  background-color: #236DF0;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -84,12 +91,13 @@ margin: 3em 0.50em;
  
   background-color: #EBF0FA;
   height: 28vh;
-  width: 35%; /* Define a largura máxima do div filho como 49% para garantir um pequeno espaço entre eles */
+  width: 35%; 
   display: inline-block;
   box-sizing: border-box;
   padding: 20px;
   margin: 20px;
   border-radius: 10px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.387);
  
 
 }
@@ -99,13 +107,37 @@ margin: 3em 0.50em;
   justify-content: flex-end;
 }
 
-.titulo-servico{
-  padding-right: 20px;
-  padding-left: 20px;
+.titulo-servico {
+ display: flex;
+ flex-direction: column;
+ justify-content: left;
+  /* padding-right: 20px;
+  padding-left: 20px; */
 }
 
-.titulo-servico h2{
-  margin: 0;
-}
 
- 
+
+
+/* secao diferenciais */
+ .diferenciais{  
+  /* background-color: #236DF0; */
+  background-color: #b0c4de31;
+  /* margin-top: 30px; */
+  height: 600px;
+
+  /* display: flex;
+  justify-content: center; */
+ }
+
+ #titulo-diferenciais{
+  padding-top: 5rem;
+  text-align: center;
+  
+ }
+
+ .container-diferenciais{
+  display: flex;
+  align-items: center;
+  padding-top: 150px;
+  justify-content: space-around;
+ }
