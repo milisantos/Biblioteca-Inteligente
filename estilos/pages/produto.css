@@ -1,10 +1,99 @@
-.mockup{
+/* .mockup{
     width: 100%; 
     height: auto;
+} */
+
+/* posicionamentos dos elementos */
+.mockup{
+    height: 75vh;
+    background-color: #EBF0FA;
+    width: 100%;
+    /* height: auto; */
+    padding: 2em;
+
 }
 
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+    
+    
+}
 
-  
-.mockup::-webkit-media-controls {
+.mockup-funcionario{
+    width: 100%;
+    box-shadow: 6px 5px 5px rgba(0, 0, 0, 0.387);
+    
+
+}
+
+.mockup-funcionario img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.mockup-cliente {
+    width: 100%;
+    height: 60vh;
+    box-shadow: 6px 5px 5px  rgba(0, 0, 0, 0.387);
+    /* height: 80vh; */
+}
+
+.mockup-cliente video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;                                                                      
+}
+
+#mockup::-webkit-media-controls {
     display: none;
 }
+
+.planos-ficticios{
+    height: 100vh;
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+/* planos */
+.plano{
+    background-color: rebeccapurple;
+}
+.btn-posicao{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+
+}
+.btn-posicao a{
+    font-size: small;
+}
+
+.margem{
+margin-bottom:0px ;
+}
+
+
+/* estilo de conteudo */
+b{
+    color: #236DF0;
+}
+
+.prototipo{
+    background-color: #236DF0;
+    height: 40px;
+    display: flex;
+    border-radius: 14px;
+    justify-content: center;
+    align-items: center;
+}
+.botao{
+    background-color: #236DF0;
+    color: #EBF0FA;
+    text-decoration: none;
+}
+
