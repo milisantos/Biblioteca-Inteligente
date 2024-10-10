@@ -119,8 +119,21 @@ b{
     position: relative;
     right: 20px;
     margin-bottom:30px ;
-    word-wrap: break-word;
+    
 }
 h5{
     text-align: left;
+}
+
+/* responsividade */
+
+@media(max-width: 1366px){
+   .conteudo{
+    /* padding-bottom: 120px; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   }
 }
